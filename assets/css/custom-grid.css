@@ -21,6 +21,12 @@
   padding-left: var(--padding-value);
   padding-right: var(--padding-value);
 }
+.no-space{
+  margin: 0;
+}
+.no-space>*{
+  padding: 0;
+}
 .col-1 {
   --size: calc(100% / var(--count-column) * 1);
   flex-basis: var(--size);
